@@ -1,13 +1,30 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.app{
+    width: 100%;
+    background-color: black;
+    height: 200px;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    margin-bottom: 1pc;  
+
+}
+.box{
+    display: inline-block;
+    height: 170px;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    margin-top: 1pc;
+    padding-bottom: 1pc;
+}
+.clock.box{
+    width: 140px;
+}
+.counter.box{
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
