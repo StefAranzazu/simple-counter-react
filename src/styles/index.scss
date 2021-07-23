@@ -2,7 +2,7 @@
 
 
 
-.app{
+.count{
     width: 100%;
     background-color: black;
     height: 200px;
@@ -19,12 +19,10 @@
     border-radius: 10px;
     margin-top: 1pc;
     padding-bottom: 1pc;
-}
-.clock.box{
-    width: 140px;
-}
-.counter.box{
     width: 100px;
     margin-left: 10px;
     margin-bottom: 30px;
+}
+.clock.box{
+    width: 140px;
 }

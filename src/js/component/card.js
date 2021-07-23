@@ -1,19 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export function Card(props) {
+export function Card(Cardprops) {
 	return (
 		<div>
 			<div className="card">
 				<img
-					src={props.imgUrl}
+					src={Cardprops.imgUrl}
 					className="card-img-top"
 					alt="..."></img>
 				<div className="card-body">
-					<h5 className="card-title">{props.title}</h5>
-					<p className="card-text">{props.text}</p>
-					<a href={props.link} className="btn btn-primary">
-						{props.buttontext}
+					<h5 className="card-title">{Cardprops.title}</h5>
+					<p className="card-text">{Cardprops.text}</p>
+					<a href={Cardprops.link} className="btn btn-primary">
+						{Cardprops.buttontext}
 					</a>
 				</div>
 			</div>
