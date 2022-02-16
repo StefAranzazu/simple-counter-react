@@ -1,5 +1,5 @@
 import React from "react";
-import { SimpleCounter } from "./SimpleCounter";
+import SimpleCounter from "./SimpleCounter";
 
 export function Home() {
 	return (

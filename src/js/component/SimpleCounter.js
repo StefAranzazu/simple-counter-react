@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-export function SimpleCounter(props) {
+const SimpleCounter = props => {
 	return (
 		<div className="count d-flex justify-content-center">
 			<div className="clock box">
@@ -16,7 +16,7 @@ export function SimpleCounter(props) {
 			<div className="one box">{props.unit % 10}</div>
 		</div>
 	);
-}
+};
 
 SimpleCounter.propTypes = {
 	hundredThousand: PropTypes.number,
@@ -28,8 +28,8 @@ SimpleCounter.propTypes = {
 };
 let counter = 0;
 setInterval(function() {
-	const six = Math.floor(counter / 1000);
-	const fith = Math.floor(counter / 1000);
+	const six = Math.floor(counter / 100000);
+	const fith = Math.floor(counter / 10000);
 	const four = Math.floor(counter / 1000);
 	const three = Math.floor(counter / 100);
 	const two = Math.floor(counter / 10);
@@ -48,3 +48,4 @@ setInterval(function() {
 		document.querySelector("#app")
 	);
 }, 1000);
+export default SimpleCounter;

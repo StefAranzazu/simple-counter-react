@@ -33,10 +33,6 @@ setInterval(function() {
 
 	counter++;
 	ReactDOM.render(
-		<SimpleCounter
-			unit={one}
-			ten={two}
-			hundred={three}
 			thousand={four}
 			tenThousand={fith}
 			hundredThousand={six}
